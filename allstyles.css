@@ -1,0 +1,186 @@
+ /* the same style applied to all the web-pages are her in this file*/
+ @import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,700;1,400;1,700&family=Cabin:wght@400;600;700&family=Dancing+Script:wght@400;500;600;700&family=Inter:wght@400;700;800&family=Montserrat:wght@200;300;400;600;700&family=Tajawal:wght@200;300;500;800&family=Thasadith:ital,wght@0,400;0,700;1,400&display=swap');
+body{
+    background-color: rgba(221, 175, 186, 1);
+    font-family: 'Cabin', sans-serif;
+    font-weight: 300;
+}
+/* this is the whole conatiner of the web-page to help in margins*/
+.container{
+    /* border: 3px solid green; */
+    max-width: 1440px;
+    margin:  42px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 25px;
+    /* flex-wrap: wrap; */
+   
+}
+
+
+
+/* the styling of the navigation bar*/
+.main-nav{
+    display: flex;
+    /* border: 3px solid red; */
+    align-items: center;
+    justify-content: space-between;
+    top: 42px;
+    margin-top: 0px; 
+    width: 1440px;
+}
+.main-nav img{
+    /* border: 2px solid blue; */
+    max-width: 900px;
+    margin-left: 90px;
+}
+.main-nav a:hover{
+    color: rgba(219, 42, 85, 1);
+    font-weight: bold;
+
+}
+/* .main-nav a:visited{
+    color: rgba(219, 42, 85, 1);
+    font-weight: bold;
+} */
+
+/* styling applied to all links and lists*/
+ul{
+    /* border: 2px solid blue; */
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    width: 550px;
+}
+li{
+    list-style: none;
+}
+ a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 1);
+}
+ a:hover{
+    color: rgba(219, 42, 85, 1);
+    font-weight: bold;
+    text-decoration: none;
+ }
+.nav-page-on a:visited {
+    font-weight: bold;
+    color: rgba(219, 42, 85, 1);
+} 
+
+/* footer used in all web-pages*/
+.footer{
+    /* border: 5px dashed rgb(170, 18, 18); */
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    margin-top: 20px;
+}
+.left-footer{
+   /* border: 2px solid blue;  */
+}
+.left-footer p{
+   font-size: 20px;
+   font-weight: bold;
+   margin-bottom: 5px;
+}
+.left-footer a{
+   color: rgb(251, 248, 248);
+   text-decoration: underline;
+}
+.left-footer a:hover{
+    color: rgba(219, 42, 85, 1);;
+}
+.right-footer{
+   /* border: 2px solid blue; */
+}
+.right-footer h1{
+   font-size: 20px;
+   font-weight: bold;
+   margin-bottom: 5px;
+}
+.right-footer p{
+   margin-bottom: 5px;
+}
+#phone-num{
+   margin-bottom: 0px;
+}
+
+/*page heading in all pages*/
+.page-title h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40 px;
+    font-weight: bold;
+}
+
+/*button*/
+button{
+    background-color: rgba(219, 42, 85, 1);
+    border: 0px;
+    padding: 15px 25px;
+    border-radius: 7px;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 30px;
+    color: white;
+}
+button a:hover{
+    font-weight: bold;
+
+}
+.nav-page-on a{
+    
+    font-weight: bold;
+}
+
+.bold-white-link:hover{
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+/* ------FIXED POSITION Nav bar---------*/
+.fixed-nav{
+    /* border: 8px solid rgb(18, 11, 11); */
+    position: fixed;
+    top: 0px;
+    z-index: 2;
+    background-color: white;
+}
+.main-section-footer{
+    /* border: 8px solid rgb(61, 14, 232); */
+    margin-top: 380px;
+}
+.main-work{
+    margin-top: 220px;
+}
+.main-photo{
+    margin-top: 270px;
+}
+.main-animation{
+    margin-top: 270px;
+
+}
+.main-video{
+    margin-top: 270px;
+}
+.pink-bg{
+    background-color: rgba(221, 175, 186, 1);
+}
+.trans-bg{
+    background-color: rgba(221, 175, 186, 0);
+}
+.main-blog{
+    margin-top: 250px;
+}
+.blogs-main{
+    margin-top: 200px;
+}
+.main-about{
+    margin-top: 300px;
+}
+.main-index{
+    margin-top: 50px;
+}

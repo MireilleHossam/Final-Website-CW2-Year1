@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,700;1,400;1,700&family=Cabin:wght@400;600;700&family=Dancing+Script:wght@400;500;600;700&family=Inter:wght@400;700;800&family=Montserrat:wght@200;300;400;600;700&family=Tajawal:wght@200;300;500;800&family=Thasadith:ital,wght@0,400;0,700;1,400&display=swap');
+.bg{
+  background-color: black;
+   
+}
+button.active{
+    /* border: 3px solid red; */
+    padding: 2px 30px;
+    height: 9px;
+    margin-right: 5px;
+    border-radius: 2px;
+
+}
+.nav-button{
+    padding: 2px 30px;
+    height: 9px;
+    border-radius: 2px;
+}
+.carousel-control-prev{
+    background-color: rgba(219, 42, 85, 0);
+}
+.carousel-control-next{
+    background-color: rgba(219, 42, 85, 0);
+
+}
+.carousel-item{
+     /* border: 4px solid rgb(225, 11, 47); */
+}
+
+.carousel-title{
+    /* border: 4px solid rgb(225, 11, 47); */
+    display: flex;
+    justify-content: center;
+    align-items:flex-end;
+    margin-right: 160px;
+    margin-top: 30px;
+}  
+
+.video-title-carousel{
+    margin-left: 90px;
+}  
+.carousel-title h2{
+    font-family: 'Cabin', sans-serif;
+    font-weight: 300;
+    color: white;
+    font-size: 20px;
+    /* border: 4px solid rgb(11, 207, 225); */
+    
+    
+}
+.img-fluid{
+    /* border: 4px solid rgb(107, 225, 11); */
+    display: flex;
+}
+.video-size{
+    margin: auto;
+    max-height: 700px;
+
+}
+.coming{
+    background-color:  rgb(225, 11, 47);
+}
+
+
+.carousel-back-button{
+    /* margin-left: 400px;
+    margin-top: 0px;   
+    background-color: rgba(219, 42, 85, 1);
+    border: 0px;
+    padding: 15px 25px;
+    border-radius: 7px;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif; */
+    /* margin-top: 30px; */
+    /* color: white; */
+    background: rgba(219, 42, 85, 1);
+    padding: 15px 25px;
+    border-radius: 7px;
+    display: block;
+    width: 180px;  
+    position: absolute;
+    right: 50px;
+    bottom: 50px;
+    text-align: center;
+    z-index: 200;
+    color: white;
+}
+.augmented-button{
+    bottom: 0px;
+}
+.video-button{
+  bottom: 40px;
+}
+
+
+.carousel-inner{
+    /* border: 5px solid yellow; */
+}
+/* button in the bottom section*/
+.bottom{
+    /* border: 5px solid rgb(72, 0, 255); */
+    /* display: flex; */
+    /* justify-content: end; */
+    /* margin-right: 100px; */
+    position: absolute;
+    right: 50px;
+    bottom: 35px;
+    z-index: 10px;
+}
+.bottom-street{
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+.bottom a{
+    color: white;
+}
+
+

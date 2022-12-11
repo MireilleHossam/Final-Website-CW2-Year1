@@ -1,0 +1,88 @@
+body{
+    background-image: url(./images/waves-design/contact-wave.png);
+    background-attachment: fixed;
+
+}
+.page-title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40 px;
+    font-weight: bold;
+}
+.form{
+    border: 3px solid yellowgreen;
+    height: 300px;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid blue; */
+}
+.userinfo{
+    flex-wrap: wrap;
+    /* border: 2px solid blue;  */
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    max-width: 500px;
+    font-size:  18px;
+
+}
+.row1{
+    /* border: 2px solid rgb(0, 255, 128); */
+    display: flex;
+    gap: 75px;
+    margin-bottom: 20px;
+}
+.row2{
+    /* border: 2px solid rgb(0, 255, 128); */
+    display: flex;
+    gap: 75px;
+    margin-bottom: 20px;
+}
+
+.fill-section{
+    font-size:  18px;
+}
+.pink-bg{
+
+}
+
+.row3{
+    /* border: 2px solid rgb(0, 255, 128); */
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    margin-bottom: 20px;
+
+}
+.row4{
+    /* border: 2px solid rgb(0, 255, 128); */
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+
+input ,textarea{
+    padding: 20px;
+    border: 0;
+    border-radius: 7px;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+.footer{
+    color: white;
+}
+.footer a{
+    color: rgb(255, 255, 255);
+}
+
+.wave-bg-nav{
+    background-image: url(./images/waves-design/contact-wave.png);
+}

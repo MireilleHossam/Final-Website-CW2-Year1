@@ -1,0 +1,122 @@
+
+.title-wave{
+    /* border: 4px solid rebeccapurple; */
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40 px;
+    font-weight: bold;
+    text-transform: uppercase;
+ 
+}
+.title-wave img{
+    /* border: 3px solid orange; */
+    position: absolute;
+    right: 15px;
+    bottom: 2px;
+}
+.page-title{
+    /* border: 2px dashed blueviolet ; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+.footer{
+    color: white;
+}
+.blog{
+    /* border: 3px solid yellow; */
+    width: 307px;
+    height: 420px;
+    position: relative;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+}
+.blogs{
+    /* border: 3px solid red; */
+    width: 1000px;
+    margin: auto; 
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.blog img{
+    width: 100%;
+    height: 50%;
+
+ }
+
+.blog-label{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 20px;
+    gap: 0px;
+    margin: center;
+    /* border: 5px dotted rgb(170, 9, 245); */
+    overflow: hidden;
+    height: 50%;
+}
+.blog-label h1{
+    /* border: 2px solid green; */
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 3px;
+    margin-top: 4px;
+
+
+}
+.blog-label h2 ,p{
+    /* border: 2px solid green; */
+    font-size: 15px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-bottom: 3px;
+}
+.publish-date{
+    /* border: 2px solid green; */
+    font-size: 10px;
+    margin-bottom: 0px;
+    margin-bottom: 3px;
+}
+.readmore-link{
+    /* border: 2px solid green; */
+    font-size: 15px;
+    margin-bottom: 0px;
+}
+.blog-label a{
+    text-decoration: underline;
+    color: black;
+}
+
+.big-block-container{
+    /* border: 3px solid purple; */
+    display: flex;
+
+}
+.left-arrow{
+    margin-top: 0px;
+    margin-top: 180px;
+    margin-left: 80px;
+ 
+}
+.right-arrow{
+    margin-top: 0px;
+    margin-top: 180px;
+    margin-right: 80px;
+   
+}
+
+
+
+

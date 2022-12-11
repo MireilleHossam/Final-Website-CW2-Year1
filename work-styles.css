@@ -1,0 +1,316 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,700;1,400;1,700&family=Cabin:wght@400;600;700&family=Dancing+Script:wght@400;500;600;700&family=Inter:wght@400;700;800&family=Montserrat:wght@200;300;400;600;700&family=Tajawal:wght@200;300;500;800&family=Thasadith:ital,wght@0,400;0,700;1,400&display=swap');
+.work-page-body{
+    background-color: white;
+}
+.work-nav a{
+    color: black;
+}
+.sub-nav{
+    /* border: 2px dashed rebeccapurple; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sub-nav ul{
+    /* border: 2px solid blue; */
+    font-weight: 100; 
+    font-size: 20px;
+    width: 700px;
+}
+.sub-nav a{
+    color: black;
+}
+
+
+
+.title-wave{
+    /* border: 4px solid rebeccapurple; */
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40 px;
+    font-weight: bold;
+    text-transform: uppercase;
+    z-index: 20;
+ 
+}
+.title-wave img{
+    /* border: 3px solid orange; */
+    position: absolute;
+    right: 15px;
+    bottom: 2px;
+  
+
+    
+}
+/* ------footer-------*/
+.left-footer a{
+    color: rgb(7, 7, 7);
+}
+/*----------- main section---------*/
+.main{
+    /* border: 5px dashed blue; */
+    width: 1210px;
+    margin: auto;
+
+}
+/* --------Steet Phootgraphy folder------------*/
+.main-gallery-preview1{
+    /* border: 4px solid rgb(228, 17, 161); */
+    border-radius: 7px;
+    width: 345px;
+    height: 260px;
+    overflow: hidden;
+    position: relative;
+    object-fit:contain;
+}
+
+/* -------- Conceptual Steet Photography folder------------*/
+.main-gallery-preview2{
+    /* border: 4px solid rgb(228, 17, 161); */
+    border-radius: 7px;
+    width: 404px;
+    height: 260px;
+    overflow: hidden;
+    position: relative;
+    object-fit:contain;
+}
+
+/* covered layer over pics*/
+.main-gallery-text{
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    background-color: rgba(219, 42, 85, 0.3);
+    margin: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+/* ------Resizing the images to cover the container-------*/
+.gallery-img{
+    width: 120%;
+    border-radius: 7px;
+
+}
+
+/*-------- Animation-----------*/
+.main-gallery-preview3{
+    /* border: 4px solid rgb(228, 17, 161); */
+    width: 322px;
+    height: 260px;
+    border-radius: 7px;
+    overflow: hidden;
+    position: relative;
+    object-fit:contain;
+
+
+}
+
+/*-------- Videography-----------*/
+.main-gallery-preview4{
+    /* border: 4px solid rgb(228, 17, 161); */
+    width: 348px;
+    height: 304px;
+    border-radius: 7px;
+    overflow: hidden;
+    position: relative;
+    object-fit:contain;
+}
+.main-gallery-preview4 img{
+    width: 180%;
+}
+
+/*-------- Agumented Poster-----------*/
+.main-gallery-preview5{
+    /* border: 4px solid rgb(228, 17, 161); */
+    width: 794px;
+    height: 304px;
+    border-radius: 7px;
+    overflow: hidden;
+    position: relative;
+    object-fit:contain;
+}
+/* Row 1 and 2 FLEX BOXES*/
+.row1{
+    /* border: 6px solid black; */
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 64px;
+    margin-top: 64px;
+}
+.row2{
+    /* border: 6px solid rgb(165, 11, 241); */
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+}
+
+/*---------------------------------------PHOTOGRAPHY  MAIN PAGE---------------------------------------*/
+.photo-gallery{
+    /* border: 4px dashed rgb(49, 7, 238); */
+    width: 1199px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.gallery-img-edit1{
+    width: 591px;
+    height: 475.6px;
+}
+
+.gallery-img-edit2{
+    width: 534px;
+    height: 729.39px;
+}
+
+.gallery-img-edit2 img{
+    width: 140%;
+}
+
+/* ---------------------------------STREET PHOTOGRAPHY PAGE-----------------------------------*/
+.sub-title{
+    /* border: 3px solid rgb(235, 8, 12); */
+    font-size: 25px;
+    color: rgba(219, 42, 85, 1);
+    font-weight: bold;   
+    background-color: white;
+    width: 1440px; 
+    display: flex;
+    justify-content: center;
+}
+
+.container-gallery{
+    /* border: 5px solid rgb(9, 2, 3); */
+    border-radius: 7px;
+    margin: auto;
+    width: 1027px;
+    display: flex;
+    justify-content: space-between;
+}
+.gallery{
+    /* border: 5px solid rgb(237, 47, 22);  */
+    width: 470px;
+    overflow: hidden;
+    object-fit: cover;
+    position: relative;
+    border-radius: 7px;
+    margin-bottom: 35px;
+    height: 600px;
+
+
+}
+.gallery-text{
+    position: absolute;
+    display: flex;
+    flex-direction: column ;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    color: rgba(255, 255, 255, 0);
+    margin-top: 0;
+   
+}
+.gallery-text:hover{
+    color: white;
+    background-color: rgba(219, 42, 85, 0.3);
+}
+.gallery-text p{
+    margin: 0px;
+    margin-bottom: 5px;
+
+}
+.gallery-img-street-photo{
+    width: 100%; 
+}
+.container-gallery{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/* --Costumizing the pics seperatly---*/
+.photo1{
+    height: 380px;
+}
+.photo2{
+    height: 600px;
+}
+.photo3{
+    height: 600px;  
+}
+.photo4{
+    height: 600px;
+}
+.photo5{
+    height: 500px;
+}
+.photo6{
+    height: 280px;
+}
+.photo7{
+    height: 475.6px;
+}
+.photo8{
+    height: 600px;
+}
+.photo9{
+    height: 475.6px;
+}
+
+
+/*----------Videography PAGE-------------*/
+.gallery-img-edit3{
+    width: 873px;
+    height: 563px;
+    margin-bottom: 40px;
+}
+.video-gallery{
+    /* border: 4px dashed rgb(49, 7, 238); */
+    width: 1199px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.gallery-text span{
+    padding: 50px;
+}
+
+/* .all-nav-section{
+    border: 10px solid green;
+    position: fixed;
+    top: 0px;
+    background-color: white;
+    /* height: 400px; */
+    /* width: 1440px;
+    z-index: 1;
+
+} */
+
+/* .main-section-footer{
+    border: 5px dashed blueviolet;
+    margin-top: 400px;
+} */ 

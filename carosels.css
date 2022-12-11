@@ -1,0 +1,39 @@
+.carousel {
+     /* border: 3px solid red;  */
+    width: 800px;
+    margin: 0 auto;
+    height: 800px;
+   
+    
+  }
+  .body{
+    background-color: black;
+    /* border: 3px solid rgb(51, 0, 255); */
+  }
+ 
+   
+
+   
+  /* }
+  .button-container{
+    border: 3px solid red; 
+    width:  1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+   
+
+  }
+  button a{
+  color: white;
+  border: 3px solid rgb(0, 255, 149);
+ 
+ } */
+ .exit{
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-right: 400px;
+  margin-top: 20px;
+}
