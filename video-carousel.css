@@ -77,7 +77,7 @@ button.active{
     padding: 15px 25px;
     border-radius: 7px;
     display: block;
-    width: 180px;  
+    width: 200px;  
     position: absolute;
     right: 50px;
     bottom: 50px;
@@ -90,6 +90,8 @@ button.active{
 }
 .video-button{
   bottom: 40px;
+  width: 210px;
+  right: 20px;
 }
 
 
